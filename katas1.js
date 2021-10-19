@@ -4,14 +4,14 @@
             Exercise 1
         */
 
-// let oneThroughTwenty = () => {
-//     let result = []
-//     for (let counter = 1; counter <= 20; counter++) {
-//     result.push(counter)
-//     }
-//     return result
-// }
-// console.log(oneThroughTwenty())
+let oneThroughTwenty = () => {
+    let result = []
+    for (let counter = 1; counter <= 20; counter++) {
+    result.push(counter)
+    }
+    return result
+}
+console.log(oneThroughTwenty())
 
 
         /*
@@ -19,16 +19,16 @@
         */
 
 
-// let evensToTwenty = () => {
-//     let result = []
-//     for (let counter = 1; counter <= 20; counter++) {
-//         if (counter % 2 === 0) {
-//             result.push(counter)
-//         }
-//     }
-//     return result
-// }
-// console.log(evensToTwenty())
+let evensToTwenty = () => {
+    let result = []
+    for (let counter = 1; counter <= 20; counter++) {
+        if (counter % 2 === 0) {
+            result.push(counter)
+        }
+    }
+    return result
+}
+console.log(evensToTwenty())
 
 
         /*
@@ -36,16 +36,16 @@
         */
 
 
-// let oddsToTwenty = () => {
-//     let result = []
-//     for (let counter = 1; counter <= 20; counter++) {
-//         if (counter % 2 !== 0) {
-//             result.push(counter)
-//         }
-//     }
-//     return result
-// }
-// console.log(oddsToTwenty())
+let oddsToTwenty = () => {
+    let result = []
+    for (let counter = 1; counter <= 20; counter++) {
+        if (counter % 2 !== 0) {
+            result.push(counter)
+        }
+    }
+    return result
+}
+console.log(oddsToTwenty())
 
 
         /*
@@ -53,32 +53,32 @@
         */
 
 
-// let multiplesOfFive = () => {
-//     let result = []
-//     let counter = 1
-//     while (counter <= 100) {
-//         if (counter % 5 === 0) {
-//             result.push(counter)
-//         }
-//         counter++
-//     }
-//     return result
-// }
-// console.log(multiplesOfFive())
+let multiplesOfFive = () => {
+    let result = []
+    let counter = 1
+    while (counter <= 100) {
+        if (counter % 5 === 0) {
+            result.push(counter)
+        }
+        counter++
+    }
+    return result
+}
+console.log(multiplesOfFive())
 
 
         /*
             Exercise 5
         */
 
-// let squareNumbers = () => {
-//     let result = []
-//     for (let counter = 1; counter <= 10; counter++) {
-//         result.push(counter * counter)
-//     }
-//     return result
-// }
-// console.log(squareNumbers())
+let squareNumbers = () => {
+    let result = []
+    for (let counter = 1; counter <= 10; counter++) {
+        result.push(counter * counter)
+    }
+    return result
+}
+console.log(squareNumbers())
 
 
         /*
@@ -86,14 +86,14 @@
         */
 
 
-// let countingBackwards = () => {
-//     let result = []
-//     for (let counter = 20; counter >= 1; counter--) {
-//     result.push(counter)
-//     }
-//     return result
-// }
-// console.log(countingBackwards())
+let countingBackwards = () => {
+    let result = []
+    for (let counter = 20; counter >= 1; counter--) {
+    result.push(counter)
+    }
+    return result
+}
+console.log(countingBackwards())
 
 
         /*
@@ -101,16 +101,16 @@
         */
 
 
-// let evenNumbersBackwards = () => {
-//     let result = []
-//     for (let counter = 20; counter >= 1; counter--) {
-//         if (counter % 2 === 0) {
-//             result.push(counter)
-//         }
-//     }
-//     return result
-// }
-// console.log(evenNumbersBackwards())
+let evenNumbersBackwards = () => {
+    let result = []
+    for (let counter = 20; counter >= 1; counter--) {
+        if (counter % 2 === 0) {
+            result.push(counter)
+        }
+    }
+    return result
+}
+console.log(evenNumbersBackwards())
 
 
         /*
@@ -118,16 +118,16 @@
         */
 
 
-// let oddNumbersBackwards = () => {
-//     let result = []
-//     for (let counter = 20; counter >= 1; counter--) {
-//         if (counter % 2 !== 0) {
-//             result.push(counter)
-//         }
-//     }
-//     return result
-// }
-// console.log(oddNumbersBackwards())            
+let oddNumbersBackwards = () => {
+    let result = []
+    for (let counter = 20; counter >= 1; counter--) {
+        if (counter % 2 !== 0) {
+            result.push(counter)
+        }
+    }
+    return result
+}
+console.log(oddNumbersBackwards())            
 
 
         /*
@@ -135,16 +135,16 @@
         */
 
 
-// let multiplesOfFiveBackwards = () => {
-//     let result = []
-//     for (let counter = 100; counter >= 1; counter--) {
-//         if (counter % 5 === 0) {
-//             result.push(counter)
-//         }
-//     }
-//     return result
-// }
-// console.log(multiplesOfFiveBackwards())
+let multiplesOfFiveBackwards = () => {
+    let result = []
+    for (let counter = 100; counter >= 1; counter--) {
+        if (counter % 5 === 0) {
+            result.push(counter)
+        }
+    }
+    return result
+}
+console.log(multiplesOfFiveBackwards())
 
 
         /*
@@ -152,13 +152,13 @@
         */
 
         
-// let squareNumbersBackwards = () => {
-//     let result = []
-//     let counter = 10
-//     while (counter >= 1) {
-//         result.push(counter * counter)
-//         counter--
-//     }
-//     return result
-// }
-// console.log(squareNumbersBackwards())
+let squareNumbersBackwards = () => {
+    let result = []
+    let counter = 10
+    while (counter >= 1) {
+        result.push(counter * counter)
+        counter--
+    }
+    return result
+}
+console.log(squareNumbersBackwards())
